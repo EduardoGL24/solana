@@ -1,0 +1,7 @@
+.main-container{
+  display: flex;
+  .container-menu, .container-header{
+    display: inline-block;
+    vertical-align: top;
+  }
+}

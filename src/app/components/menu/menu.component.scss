@@ -1,0 +1,31 @@
+.menu-main-container{
+  padding: 5%;
+  background-color: #191F26;
+  height: 100%;
+  .menu-logo-container{
+  padding: 10% 0% 15% 0%;   
+    img{
+      width: 80%;
+    }
+  }
+  .menu-list-container{
+    ul{
+      list-style: none;
+      padding-left: 0;
+      li{
+        padding: 10px 15px;
+        a{
+          padding-left: 10px;
+          display: inline-block;
+          text-decoration: none;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+.active-menu{
+  background: #2B3137;
+  border-radius: 5px;
+}
