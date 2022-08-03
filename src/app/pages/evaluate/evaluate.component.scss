@@ -1,0 +1,60 @@
+.evaluate-main-container{
+  .evaluate-header-container{
+    padding: 1% 2%;
+    h3{
+      font-size: 17px;
+      margin: 0;
+    }
+    label{
+      padding-left: 6px;
+      color: rgba(255, 255, 255, .5);
+    }
+    p{
+      padding-left: 6px;
+    }
+  }
+  .evaluate-vehicle-info-container{
+    padding: 3%;
+    .vehicle-details-container{
+      padding: 3% 2%;
+      border-radius: 5px;
+      .vehicle-details-header{
+        margin-bottom: 10px;
+        img{
+          width: 65%;
+          margin-bottom: 20px;
+        }
+        h2{
+          font-size: 25px;
+          font-weight: 400;
+        }
+      }
+      .vehicle-details-info{
+        button{
+          text-align: left;
+          color: #FFFFFF;
+          border: none;
+          padding: 10px 0px;
+          width: 100%;
+          border-bottom: 1px solid rgb(255 255 255 / 50%);
+          margin-bottom: 10px;
+          label{
+            color: #3699FF;
+            padding-left: 10%;
+          }
+        }
+      }
+      .vehicle-detail-container{
+        height: 50px;
+        margin-bottom: 15px;
+        p{
+          font-weight: 600;
+          &:nth-child(2){
+            color: rgb(255 255 255 / 50%);
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
